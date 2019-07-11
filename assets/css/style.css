@@ -1,0 +1,68 @@
+/* reset */
+
+html { box-sizing: border-box }
+*, *:before, *:after { box-sizing: inherit }
+html, body, h1, h2, h3, h4, h5, h6, p, ul, li, blockquote, figure, hr { margin: 0; padding: 0 }
+
+html {
+  width: 100%;
+  font-family: ;
+  font-size: 18px;
+  line-height: 1.4;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+}
+
+a {
+  color: inherit;
+}
+
+p {
+  padding-bottom: 1rem;
+}
+
+.fs-sm {
+  font-size: 0.8rem;
+}
+
+.x {
+  display: flex;
+}
+
+.xw {
+  flex-wrap: wrap;
+}
+
+.xdr {
+  flex-direction: row;
+}
+
+.xdc {
+  flex-direction: column;
+}
+
+.xjb {
+  justify-content: space-between;
+}
+
+.w30 {
+  width: 30%;
+}
+
+@media screen and (min-width: 600px) {
+  .md-xdr {
+    flex-direction: row;     
+  }
+
+  .md-w50 {
+    width: 50%;
+  }
+}
+
+.pb2 {
+  padding-bottom: 2rem;
+}

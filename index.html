@@ -1,0 +1,195 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Feminist book search</title>
+  <meta name="description" content="Feminist book search tool">
+  <meta name="author" content="Feminists">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <form method="post" action="/search.php" id="searchform" class="x xdc">
+    <input id="searchbar" type="text" placeholder="type your keyword" name="keywords" class="pt1-5 pr1-5 pb1-5 pl1-5 sh-ins">
+
+    <div class="x xdc md-xdr">
+      <section class="md-w50 bgc-bl pt1-5 pr1-5 pb1-5 pl1-5">
+        <div class="x xdr xw xac pb1">
+          <input type="radio" value="11332" name="category" form="searchform" class="mr1"></input>
+          <label  class="w70">Feminist Theory</label>
+        </div>
+
+        <div class="x xdr xw xac pb1">
+          <input type="radio" value="301889" name="category" form="searchform" class="mr1"></input>
+          <label class="w70">Lesbian, Gay, Bisexual & Transgender Books</label>
+        </div>
+
+        <div class="x xdr xw xac pb1">
+          <input type="radio" value="11249" name="category" form="searchform" class="mr1"></input>
+          <label class="w70">Discrimination & Racism</label>
+        </div>
+        
+        <div class="x xdr xw xac pb1">
+          <input type="radio" value="11300" name="category" form="searchform" class="mr1" checked></input>
+          <label class="w70">African-American Studies</label>
+        </div>
+
+        <div class="x xdr xw xac pb1">
+          <input type="radio" value="11344" name="category" form="searchform" class="mr1"></input>
+          <label class="w70">Women Writers</label>
+        </div>
+      </section>
+
+      <section class="md-w50 bgc-or pt1-5 pr1-5 pb5 pl1-5">
+        <div class="pb2">
+          <p>Default:</p>
+          <div class="x xdr xw xac">
+            <input type="radio" value="feminism" name="k" form="searchform" class="mr1"></input>
+            <label>Feminism*</label> </div>
+
+        <div class="pb2">
+          <p>Terms retrieved from Atria Women Thesaurus: <a href="https://institute-genderequality.org/library-archive/collection/thesaurus/5287/"> https://institute-genderequality.org/library-archive/collection/thesaurus/5287/</a></p>
+          <div class="x xw xdr xjb fs-sm">
+            <div class="w30 x xdr xw xac pb0-5">
+              <input type="radio" value="anarcha+feminism" name="k" form="searchform" class="mr1"></input>
+              <label>anarcha feminism*</label>
+            </div>
+
+            <div class="w30 x xdr xw xac pb0-5">
+              <input type="radio" value="black+feminism" name="k" form="searchform" class="mr1"></input>
+              <label>Black Feminism*</label>
+            </div>
+
+            <div class="w30 x xdr xw xac pb0-5">
+              <input type="radio" value="christian+feminism" name="k" form="searchform" class="mr1"></input>
+              <label>Christian feminism*</label>
+            </div>
+
+            <div class="w30 x xdr xw xac pb0-5">
+              <input type="radio" value="cultural+feminism" name="k" form="searchform" class="mr1"></input>
+              <label>cultural feminism*</label>
+            </div>
+
+            <div class="w30 x xdr xw xac pb0-5">
+              <input type="radio" value="cyber+feminism" name="k" form="searchform" class="mr1"></input>
+              <label>cyber-feminism*</label>
+            </div>
+
+            <div class="w30 x xdr xw xac pb0-5">
+              <input type="radio" value="ecofeminism" name="k" form="searchform" class="mr1"></input>
+              <label>ecofeminism*</label>
+            </div>
+
+            <div class="w30 x xdr xw xac pb0-5">
+              <input type="radio" value="equal+rights+feminism" name="k" form="searchform" class="mr1"></input>
+              <label>equal rights feminism*</label>
+            </div>
+
+            <div class="w30 x xdr xw xac pb0-5">
+              <input type="radio" value="first+feminist+wave" name="k" form="searchform" class="mr1"></input>
+              <label>first feminist wave*</label>
+            </div>
+
+            <div class="w30 x xdr xw xac pb0-5">
+              <input type="radio" value="global+feminism" name="k" form="searchform" class="mr1"></input>
+              <label>global feminism (eng)*</label>
+            </div>
+
+            <div class="w30 x xdr xw xac pb0-5">
+              <input type="radio" value="marxist+feminism" name="k" form="searchform" class="mr1"></input>
+              <label>Marxist feminism*</label>
+            </div>
+
+            <div class="w30 x xdr xw xac pb0-5">
+              <input type="radio" value="muslim+feminism" name="k" form="searchform" class="mr1"></input>
+              <label>Muslim feminism*</label>
+            </div>
+
+            <div class="w30 x xdr xw xac pb0-5">
+              <input type="radio" value="new+feminism" name="k" form="searchform" class="mr1"></input>
+              <label>new feminism*</label>
+            </div>
+
+            <div class="w30 x xdr xw xac pb0-5">
+              <input type="radio" value="radical+feminism" name="k" form="searchform" class="mr1"></input>
+              <label>radical feminism*</label>
+            </div>
+
+            <div class="w30 x xdr xw xac pb0-5">
+              <input type="radio" value="second+feminist+wave" name="k" form="searchform" class="mr1"></input>
+              <label>second feminist wave*</label>
+            </div>
+
+            <div class="w30 x xdr xw xac pb0-5">
+              <input type="radio" value="socialist+feminism" name="k" form="searchform" class="mr1"></input>
+              <label>socialist feminism*</label>
+            </div>
+
+            <div class="w30 x xdr xw xac pb0-5">
+              <input type="radio" value="third+wave+feminism" name="k" form="searchform" class="mr1"></input>
+              <label>third wave feminism*</label>
+            </div>
+
+            <div class="w30 x xdr xw xac pb0-5">
+              <input type="radio"value=""  name="k" form="searchform" class="mr1"></input>
+              <label class="fc-rd">add category*</label>
+            </div>
+
+            <div class="w30 x xdr xw xac pb0-5">
+              <input type="radio" value="" name="k" form="searchform" class="mr1"></input>
+              <label class="fc-rd">add category*</label>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <p>Terms retrieved with VOS from Mapping Slavery book selection: <a href="https://mappingslavery.nl/en/kennisbank/literatuur/">https://mappingslavery.nl/en/kennisbank/literatuur/</a></p>
+
+          <div class="x xw fs-sm">
+            <div class="w30 x xdr xw xac pb0-5">
+              <input type="radio" value="slavery" name="k" form="searchform" class="mr1"></input>
+              <label>slavery*</label>
+            </div>
+
+            <div class="w30 x xdr xw xac pb0-5">
+              <input type="radio" value="slave+trade" name="k" form="searchform" class="mr1"></input>
+              <label>slave trade*</label>
+            </div>
+
+            <div class="w30 x xdr xw xac pb0-5">
+              <input type="radio" value="trans+atlantic" name="k" form="searchform" class="mr1"></input>
+              <label>trans-atlantic*</label>
+            </div>
+
+            <div class="w30 x xdr xw xac pb0-5">
+              <input type="radio" value="colonization" name="k" form="searchform" class="mr1"></input>
+              <label>colonization*</label>
+            </div>
+
+            <div class="w30 x xdr xw xac pb0-5">
+              <input type="radio" value="colonial" name="k" form="searchform" class="mr1"></input>
+              <label>colonial*</label>
+            </div>
+
+            <div class="w30 x xdr xw xac pb0-5">
+              <input type="radio" value="" name="k" form="searchform" class="mr1"></input>
+              <label class="fc-rd">add category*</label>
+            </div>
+
+            <div class="w30 x xdr xw xac pb0-5">
+              <input type="radio"value=""  name="k" form="searchform" class="mr1"></input>
+              <label class="fc-rd">add category*</label>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </div>
+
+    <button class="w100 psf b0 l0 pt1 pr1 pb1 pl1 bgc-wh tac ft-serif fs-bg sh-ins">Search</button>
+  </form>
+</body>
+</html>
