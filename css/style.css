@@ -140,8 +140,29 @@ p {
   align-items: center;
 }
 
+.psr {
+  position: relative; 
+}
+
+.t50 {
+  top: 50%;
+}
+
+.tthy {
+  transform: translateY(-50%);
+}
+
 .psf {
   position: fixed;
+}
+
+.psa {
+  position: absolute; 
+}
+
+.pss {
+  position: sticky;
+  top: 0;
 }
 
 .b0 {
@@ -232,4 +253,8 @@ p {
 
 .pb5 {
   padding-bottom: 5rem;
+}
+
+.pl50pc {
+  padding-left: 50%;
 }

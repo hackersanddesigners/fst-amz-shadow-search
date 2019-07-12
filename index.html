@@ -13,7 +13,10 @@
 
 <body>
   <form method="post" action="/search.php" id="searchform" class="x xdc">
-    <input id="searchbar" type="text" placeholder="type your keyword" name="keywords" class="pt1-5 pr1-5 pb1-5 pl1-5 sh-ins">
+    <div class="psr pss x xdr w100 bgc-wh">
+      <div class="search-label psa t50 tthy pl1-5"></div>
+      <input id="searchbar" type="text" placeholder="type your keyword" name="keywords" class="w100 pt1-5 pr1-5 pb1-5 pl50pc sh-ins">
+    </div>
 
     <div class="x xdc md-xdr">
       <section class="md-w50 bgc-bl pt1-5 pr1-5 pb1-5 pl1-5">
@@ -43,12 +46,13 @@
         </div>
       </section>
 
-      <section class="md-w50 bgc-or pt1-5 pr1-5 pb5 pl1-5">
+      <section class="k md-w50 bgc-or pt1-5 pr1-5 pb5 pl1-5">
         <div class="pb2">
           <p>Default:</p>
           <div class="x xdr xw xac">
-            <input type="radio" value="feminism" name="k" form="searchform" class="mr1"></input>
-            <label>Feminism*</label> </div>
+            <input type="radio" value="feminism" name="k" form="searchform" class="mr1" checked></input>
+            <label>Feminism*</label>
+          </div>
 
         <div class="pb2">
           <p>Terms retrieved from Atria Women Thesaurus: <a href="https://institute-genderequality.org/library-archive/collection/thesaurus/5287/"> https://institute-genderequality.org/library-archive/collection/thesaurus/5287/</a></p>
@@ -191,5 +195,7 @@
 
     <button class="w100 psf b0 l0 pt1 pr1 pb1 pl1 bgc-wh tac ft-serif fs-bg sh-ins">Search</button>
   </form>
+
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
